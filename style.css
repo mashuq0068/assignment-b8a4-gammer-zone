@@ -1,0 +1,14 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300;700;800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+img{
+    width:100%;
+}
