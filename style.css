@@ -104,7 +104,8 @@ nav{
 .banner-text-container{
   
   /* width: 40vw; */
-  padding:10vw;
+  padding:10vw; 
+
   background-image: url(./B8A2-Gamer-Zone/images/Group\ 14.png);
   fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
   
@@ -155,6 +156,9 @@ font-weight: 600;
   background-image: var(--pink-linear);
   color: transparent;
   -webkit-background-clip:text;
+}
+header{
+  /* width:100vw; */
 }
 .item-3{
   margin-top:2%;
@@ -261,6 +265,7 @@ font-weight: 700;
   border-radius:8px;
   
 }
+
 .play-instantly-container{
   display: flex;
   width:80vw;
@@ -304,6 +309,10 @@ margin-top:30px;
 .instantly-text-container{
   margin-top:-300px;
 }
+
+
+
+
 .before-footer-container img{
 width:60px;
 height:60px;
@@ -318,18 +327,26 @@ font-weight: 600;
 }
 .before-footer-container{
   background-image: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  
 }
 .before-footer{
   border-radius: 50px;
   background-color: #FFF;
-  text-align: center;
-  display: flex;
-  gap:2%;
+  text-align: center; 
+  /* display: flex; */
+  margin-right:2%;
   margin-bottom:5%;
-  padding:5px 30px;
+  padding:5px 27px;
+  width: max-content;
+  box-sizing: border-box;
 
   
  
+}
+.before-footer span{
+  position: relative;
+  bottom:23px;
+  margin-left:10px;
 }
 .before-footer-div-container{
   display: flex;
@@ -340,17 +357,30 @@ font-weight: 600;
   margin-left: auto;
   margin-right: auto;
   gap:10px;
-  padding:4%;
+ padding:20px;
   align-items: center;
 }
+.before-footer .btn-before-footer{
+  border: none;
+  background-color: #fff;
+}
 .before-footer:hover{
- border:1px solid #FF42A5;
+ border:1px solid  #e22597;
+ cursor: pointer;
+
  
 }
-.before-footer P:hover{
+.btn-before-footer:hover{
+ 
+ cursor: pointer;
+ color: #e22597;
+
+}
+/* .before-footer span:hover{
   color: #FF42A5;
+  cursor: pointer;
  
-}
+} */
 footer{
   background-color: #0B0223;
   text-align: center;
@@ -520,92 +550,79 @@ text-align: center;
   
   font-weight: 700;
 }
-.play-instantly-container{
-  flex-direction:column;
-  width:80vw;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-top:15%;
+.play-instantly-container {
+  flex-direction: column;
+  margin-top:-15vh;
 }
 .instantly-text-container{
-  margin-top:-0px;
+  margin-top:120px;
+  margin-bottom:15px;
+  text-align: center;
 }
-.instantly-title-pink{
-  font-size:25px;
-  font-weight:700;
-  background-image:linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-  color: transparent;
-  -webkit-background-clip:text;
-}
-.instantly-title1{
-  color: #0B0223;
-  font-size: 25px;
-  font-weight: 700;
-  
-}
-.instantly-title2{
-  color: #0B0223;
-  font-size: 25px;
-  font-weight: 700;
 
-}
-.instantly-description{
-  color: #534C64;
-font-size: 10px;
-font-weight: 400;
-margin-top:30px;
-
-}
-.instantly-picture-container{
-  margin-top:10%;
-}
-.img-small{
+.img-small {
   position: relative;
-  bottom:90px;
-  right:130px;
-  
+  bottom:100px;
+  right:50px;
+  margin-top:10px;
 }
-  .before-footer-div-container{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding:10%;
-  column-gap:10%;
-  box-sizing: border-box;
-  width:90vw;
-  row-gap:10%;
-  padding-top:30%;
-  padding-bottom:30%;
-}  
-.before-footer-div-container img{
-   width:50%; 
-  height: auto;
-  box-sizing: border-box;
-  gap:5%;
-  
-  }
-  .before-footer{
-    box-sizing: border-box;
-  }
-  
-  
- 
-  .before-footer-container p{
-    color: #0B0223;
-  
+
+.instantly-title-pink {
+  font-size: 25px;
+}
+
+.instantly-title1,
+.instantly-title2 {
+  font-size: 25px;
+}
+
+.instantly-description {
   font-size: 10px;
-  
-  font-weight: 400;
+  margin-top: 15px;
+}
+
+.before-footer-div-container{
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
 }
 .before-footer{
-  padding:2px 5px;
+  padding:1px 2px;
+  border-radius:50px;
+ 
+}
+.btn-before-footer{
+  display: flex;
   align-items: center;
-  margin-bottom:10%;
+  justify-content: center;
+ padding:0px;
+ border-radius:50px;
+ 
   
 }
+.btn-before-footer span{
+  margin-top:43px;
+}
+.btn-before-footer img{
+ width:20%;
+ height:20%;
+}
+.btn-before-footer span{
+  font-size:5px;
+}
+
+.before-footer {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius:50px;
+  
+} 
+
+
 footer{
   width:100vw;
   padding:5%;
+  width: auto;
 }
 .footer-info-1{
   display: flex;
@@ -771,6 +788,8 @@ margin-top:30px;
   bottom:90px;
   right:230px;
 }
+
+  
 
   
 }
