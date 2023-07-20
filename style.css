@@ -226,6 +226,7 @@ header{
   grid-template-columns: repeat(4,1fr);
   column-gap:20px;
   margin-top:5%;
+  opacity:1;
   
 }
 .funny-div{
@@ -265,6 +266,35 @@ font-weight: 700;
   border-radius:8px;
   
 }
+.img-funny{
+  
+}
+.funny-pause{
+  width:45px;
+  height:45px;
+}
+ .funny-div .funny-hover-paragraph{
+  color: #e22597;
+  font-size:20px;
+  font-weight: 600;
+}
+.funny-hover{
+  position: relative;
+  top:45%;
+  bottom:50%;
+  text-align: center;
+ display: none
+  
+}
+ 
+  
+ 
+/* background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% /;
+background-blend-mode: overlay;
+color: transparent; */
+
+ 
+
 
 .play-instantly-container{
   display: flex;
@@ -277,8 +307,8 @@ font-weight: 700;
 .img-small{
   width:45%;
   position: relative;
-  bottom: 150px;
-  right:50px;
+  bottom: 250px;
+  right:150px;
 }
 .instantly-title-pink{
   font-size:48px;
@@ -586,7 +616,7 @@ text-align: center;
   grid-template-columns: repeat(3 ,1fr);
 }
 .before-footer{
-  padding:2px 2px;
+  padding:1px 2px;
   border-radius:50px;
  
 }
