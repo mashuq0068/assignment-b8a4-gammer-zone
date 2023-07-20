@@ -586,7 +586,7 @@ text-align: center;
   grid-template-columns: repeat(3 ,1fr);
 }
 .before-footer{
-  padding:1px 2px;
+  padding:2px 2px;
   border-radius:50px;
  
 }
@@ -607,7 +607,7 @@ text-align: center;
  height:20%;
 }
 .btn-before-footer span{
-  font-size:5px;
+  font-size:6px;
 }
 
 .before-footer {
@@ -623,6 +623,13 @@ footer{
   width:100vw;
   padding:5% 5% 1% 5%;
   width: auto;
+}
+.footer-title-img{
+  width:50%;
+  height:50%;
+}
+.footer-title{
+  font-size:20px;
 }
 .footer-info-1{
   display:grid;
